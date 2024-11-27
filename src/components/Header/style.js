@@ -4,11 +4,13 @@ import styled from 'styled-components';
 // Styled Components
 export const HeaderWrapper = styled.header`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 10px 20px;
-  background-color: #fff;
+  padding: 30px 20px;
+  background-color: #111116;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+  
 `;
 
 export const HeaderLeft = styled.div`
@@ -18,6 +20,7 @@ export const HeaderLeft = styled.div`
 export const Title = styled.span`
   font-size: 24px;
   font-weight: bold;
+
 `;
 
 export const HeaderCenter = styled.div`
@@ -27,11 +30,12 @@ export const HeaderCenter = styled.div`
 `;
 
 export const SearchInput = styled.input`
-  width: 80%;
+  width: 60%;
   padding: 8px 15px;
   border-radius: 25px;
   border: 1px solid #ddd;
   font-size: 16px;
+  background-color: transparent;
 `;
 
 export const HeaderRight = styled.div`
@@ -42,7 +46,7 @@ export const HeaderRight = styled.div`
 export const Icon = styled.div`
   font-size: 20px;
   cursor: pointer;
-  color: #333;
+  color: #FFF;
 
   &:hover {
     color: #007BFF;
